@@ -16,7 +16,7 @@ int main() {
     printf("Before swap age=%p age2=%p", &age, &age2);
     swap(&age, &age2);
     printf("\nAfter swap age=%p age2=%p", &age, &age2);
-    printf("\n");
+    printf("\nkll");
     return 0;
 }
 

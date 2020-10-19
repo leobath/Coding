@@ -29,7 +29,7 @@ void swap(int *x, int *y) {
 }
 
 void printNum(int age) {
-	int ageL = age;
-	printf("%d", ageL);
+	int age4 = age;
+	printf("%d", age4);
 }
 

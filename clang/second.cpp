@@ -10,5 +10,8 @@ int main(int argc, char* argv[]) {
 }
 
 void count(int &a) {
-    a++;
+    int x, i = 0;
+    for(i = 0; i <= 12; i++){
+        a = i;
+    }
 }

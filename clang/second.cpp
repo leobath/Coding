@@ -1,3 +1,4 @@
+/*My Second Program*/
 #include <iostream>
  
 void count(int &a);

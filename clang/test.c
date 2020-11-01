@@ -14,9 +14,9 @@ int main() {
     // printf("\n");
     printNum(age);
     // printf("\nage=%d , and age2=%d", age, age2);
-    printf("Before swap age=%p age2=%p", &age, &age2);
+    printf("Before swap age=%p age2=%p.", &age, &age2);
     swap(&age, &age2);
-    printf("\nAfter swap age=%p age2=%p", &age, &age2);
+    printf("\nAfter swap age=%p age2=%p.", &age, &age2);
     printf("\n%d %d", age2, age);
     return 0;
 }

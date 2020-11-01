@@ -2,4 +2,4 @@ cpp.code-workspace
 test.a
 test
 second
-.gitignore
+../.gitignore

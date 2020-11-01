@@ -30,6 +30,6 @@ void swap(int *x, int *y) {
 
 void printNum(int age) {
 	int age4 = age;
-	printf("%d", age4);
+	printf("%d.", age4);
 }
 

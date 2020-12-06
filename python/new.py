@@ -1,10 +1,6 @@
-mylist = ["apple", "bannana", "orange"]
-print(mylist)
+healthy = ["kale chips", "broccoli"]
+backpack = ["pizza", "apple crisp", "kale chips"]
 
-mylist.append("mellon")
-print(mylist)
-mylist2 = mylist.pop(0)
-
-print(mylist2)
-print(mylist)
-print("bannana" in mylist)
+print(backpack)
+backpack[:] = [item for item in backpack if item in healthy]
+print(backpack)

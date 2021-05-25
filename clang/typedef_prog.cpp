@@ -12,3 +12,4 @@ int main(int argc, char const *argv[])
     std::cout << usin << std::endl;
     return 0;
 }
+
